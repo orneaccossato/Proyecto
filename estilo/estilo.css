@@ -225,6 +225,7 @@ footer{
        gap: 5px;
      
 }
+}
       @media(min-width:1024px){
  
         #grilla {
@@ -235,9 +236,10 @@ footer{
            "contenido contenido"
            "footer footer"
            ;
+           
          
            grid-template-columns:25% auto ;
            grid-template-rows: 100px 2fr 1fr 100px;
            gap: 5px;
-}
-
+           }
+           }

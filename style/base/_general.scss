@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&family=Raleway:wght@200&display=swap');
+@import "./variables";
+
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color:#d6cfcb;
+}
+
+.titulosPrincipales{
+    font-weight: bolder;
+    color: $primary-color;
+    background-color:transparent;
+    padding: 100px;
+    text-align: center;
+
+} 

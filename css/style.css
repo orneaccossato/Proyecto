@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&family=Raleway:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #d6cfcb;
+}
+
+.titulosPrincipales {
+  font-weight: bolder;
+  color: #565264;
+  background-color: transparent;
+  padding: 100px;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #565264;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+}
+
+header nav, header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+header nav a, header ul a {
+  color: #f2e9e4;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  header nav a, header ul a {
+    padding: 3px 3px;
+  }
+}
+
+.logoHeader img {
+  width: 9rem;
+  padding: 6px;
+  padding-left: 1rem;
+}
+
+footer {
+  background-color: #565264;
+  height: 100px;
+}
+
+footer .textoFooter {
+  text-align: center;
+  color: #f2e9e4;
+  cursor: pointer;
+}
+
+footer .iconosFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  gap: 20px;
+}
+
+footer .iconosFooter:hover {
+  color: #f2e9e4;
+  cursor: pointer;
+}
+
+.contenidoContacto {
+  padding: 20px;
+}
+
+.contenidoContacto form {
+  background-color: #f2e9e4;
+  padding: 50px;
+  border-radius: 50px;
+  color: #22223b;
+  line-height: 2;
+}
+
+.contenidoContacto form .tiempo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tituloCursos {
+  padding: 80px 0px 80px 0px;
+  color: #22223b;
+}
+
+.titulo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: titulo;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calendario {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: calendario;
+  height: 25px;
+  width: 25px;
+}
+
+.fechas {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: fechas;
+}
+
+.reloj {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: reloj;
+  justify-items: center;
+  height: 25px;
+  width: 25px;
+}
+
+.horario {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: horario;
+}
+
+.boton {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: boton;
+  border-radius: 15px;
+  border: 1px solid #22223b;
+  background-color: #d6cfcb;
+  color: #22223b;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #22223b;
+  color: #f2e9e4;
+  cursor: pointer;
+}
+
+.clasesCurso {
+  margin: 10px;
+  height: 200px;
+  width: 400px;
+  -webkit-box-shadow: #d6cfcb;
+          box-shadow: #d6cfcb;
+  background-color: #f2e9e4;
+  border-radius: 10px;
+  border: 5px solid #22223b;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 10px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 2px;
+      grid-template-areas: "titulo titulo" "calendario fechas" "reloj horario" "boton boton";
+}
+
+.clasesCurso:hover {
+  -webkit-transform: translate(10px, 5px);
+          transform: translate(10px, 5px);
+}
+
+.cursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+
+.tituloLibro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenidoBiblioteca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .contenidoBiblioteca {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contenidoBiblioteca .libro {
+    padding: 50px;
+  }
+}
+
+.contenidoBiblioteca .libro img {
+  width: 300px;
+  height: 350px;
+}
+
+.tituloVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 35px;
+}
+
+.videosBiblioteca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .videosBiblioteca {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.videosBiblioteca .video p {
+  width: 300px;
+  margin: 20px;
+}
+/*# sourceMappingURL=style.css.map */

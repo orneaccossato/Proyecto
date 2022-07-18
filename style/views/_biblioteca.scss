@@ -1,0 +1,56 @@
+@import "../base/variables";
+@import "../utilities/utilities";
+
+.tituloLibro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidoBiblioteca{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+     gap: 15px;
+
+    @include breakpoint (md){
+        justify-content: center;
+    }
+     .libro{
+          @include breakpoint (md){
+              padding: 50px;
+             }
+         img{
+         width: 300px;
+         height: 350px;
+
+        }
+      }    
+    }
+
+.tituloVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
+
+.videosBiblioteca{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    @include breakpoint (md){
+        justify-content: center;
+    }
+    .video {
+        p{
+            width: 300px;
+            margin: 20px;
+        }
+        
+    }
+}

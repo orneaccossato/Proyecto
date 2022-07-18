@@ -1,0 +1,21 @@
+@import "../base/variables";
+
+.contenidoContacto{
+    padding: 20px;
+
+   form{
+   background-color: $secondary-color;
+   padding: 50px ;
+   border-radius: 50px;
+   color: $titulo-color;
+   line-height: 2; 
+
+   .tiempo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+ }
+}
+   

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../estilo/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/fa3da38856.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/jpg" href="../imagenes/Logoedit.png" />
     <title>Astroinfo</title>
@@ -15,9 +16,10 @@
     <!--inicio header-->
 
     <header>
+        <div class="container">
         <!--logo-->
         <div class="logoHeader">
-            <img src="../imagenes/Logoedit.png" alt="">
+            <img src="../imagenes/Logoedit.png" alt="logo">
         </div>
         <!--nav-->
         <div class="contenidoHeader">
@@ -42,42 +44,147 @@
                 </ul>
             </nav>
         </div>
+        </div>
     </header>
     <!--fin header-->
 
     <!--inicio main-->
-    <main class="mainCursos">
+    <main>
+      <div class="container">
         <!--contenido-->
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident rem nemo facilis similique illo sequi
-            maxime earum. Natus, dolore commodi inventore vel quaerat beatae illum odit eligendi facere provident
-            laborum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum praesentium a architecto dolores aut,
-            accusamus nemo ea tempora similique reprehenderit nam, debitis cupiditate libero quam, iusto sit eaque modi.
-            Corporis?</p>
+
+        <!--section 1-->
+        <section class="tituloCursos">
+            <div data-aos="fade-down"
+            data-aos-duration="2000">
+            <!--titulo-->
+            <h1 class="titulosPrincipales"> Cursos </h1>
+        </section>
+        <!--fin section 1-->
+
+        <!--section 2-->
+
+
+        <section class="cursos">
+         
+            <div class="clasesCurso">
+             <h2 class="titulo"> Astrologia I </h2>
+                <svg class="calendario" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  <h3 class="fechas">Martes y Jueves</h3>  
+
+                   <svg class="reloj" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path class="reloj" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                 <h3 class="horario"> 14 hs a 17 hs </h3>  
+                 
+                <h3 class="boton">Inscribirme</h3>
+         </div>
+         <div class="clasesCurso">
+            <h2 class="titulo"> Astrologia I </h2>
+            <svg class="calendario" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              <h3 class="fechas">Lunes y Miercoles</h3>  
+
+               <svg class="reloj" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path class="reloj" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+             <h3 class="horario"> 10 hs a 13 hs </h3>  
+             
+            <h3 class="boton">Inscribirme</h3>
+
+
+         </div>
+         <div class="clasesCurso">
+            <h2 class="titulo"> Astrologia I </h2>
+            <svg class="calendario" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              <h3 class="fechas">Miercoles y Viernes</h3>  
+
+               <svg class="reloj" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path class="reloj" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+             <h3 class="horario"> 15 hs a 18 hs </h3>  
+             
+            <h3 class="boton">Inscribirme</h3>
+
+         </div>
+
+         <div class="clasesCurso">
+            <h2 class="titulo"> Astrologia II </h2>
+               <svg class="calendario" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                   <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                 </svg>
+                 <h3 class="fechas">Martes y Jueves</h3>  
+
+                  <svg class="reloj" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                   <path class="reloj" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                 </svg>
+                <h3 class="horario"> 14 hs a 17 hs </h3>  
+                
+               <h3 class="boton">Inscribirme</h3>
+        </div>
+        <div class="clasesCurso">
+           <h2 class="titulo"> Astrologia II </h2>
+           <svg class="calendario" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+             </svg>
+             <h3 class="fechas">Lunes y Miercoles</h3>  
+
+              <svg class="reloj" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+               <path class="reloj" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+             </svg>
+            <h3 class="horario"> 10 hs a 13 hs </h3>  
+            
+           <h3 class="boton">Inscribirme</h3>
+
+
+        </div>
+        <div class="clasesCurso">
+           <h2 class="titulo"> Astrologia III </h2>
+           <svg class="calendario" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+             </svg>
+             <h3 class="fechas">Miercoles y Viernes</h3>  
+
+              <svg class="reloj" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+               <path class="reloj" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+             </svg>
+            <h3 class="horario"> 15 hs a 18 hs </h3>  
+            
+           <h3 class="boton">Inscribirme</h3>
+
+        </div>
+        </section>
+    </div>
     </main>
     <!--fin main-->
 
     <!--inicio footer-->
     <footer>
         <!--contenido-->
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, iure reprehenderit. Nobis voluptatum
-                blanditiis quae tempore accusamus </p>
+        <div class="textoFooter">
+            <p> astroInfo.com | Ornella Accossato </p>
         </div>
         <!--iconos-->
         <div class="iconosFooter">
             <div>
-                <i class="fa-brands fa-facebook-f"></i>
+                <a href="https://www.facebook.com/orne.accossato">  <i class="fa-brands fa-facebook-f"></i></a>
+
             </div>
             <div>
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/orneaccossato/"> <i class="fa-brands fa-instagram"> </i></a>
             </div>
             <div>
-                <i class="fa-brands fa-youtube"></i>
+                <a href="https://www.youtube.com/watch?v=TmKh7lAwnBI"> <i class="fa-brands fa-youtube"></i> </a>
             </div>
         </div>
     </footer>
     <!--fin footer-->
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

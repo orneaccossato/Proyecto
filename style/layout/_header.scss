@@ -1,0 +1,46 @@
+@import "../base/variables";
+@import "../utilities/utilities";
+
+
+header{
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    @include breakpoint (md) {
+        text-align: center;
+
+    }    
+
+
+     nav,ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+
+
+        a{
+            color: $secondary-color;
+            text-decoration: none;
+            font-size: 20px;
+            font-family:'Raleway', sans-serif;
+            padding: 15px 15px;
+            font-weight: bold;
+            @include breakpoint (md){
+                padding: 3px 3px;
+            }
+
+        }
+    }
+   
+}
+
+.logoHeader img{
+    width: 9rem;
+    padding: 6px;
+    padding-left: 1rem;
+}

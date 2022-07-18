@@ -1,0 +1,74 @@
+@import"../base/variables";
+
+
+.tituloCursos{
+    padding: 80px 0px 80px 0px ;
+    color: $titulo-color;
+}
+.titulo{
+    grid-area: titulo;
+    justify-items: center;
+    align-items: center;
+}
+.calendario{
+    grid-area: calendario;
+    height: 25px;
+    width: 25px;
+}
+.fechas{
+    grid-area: fechas;
+}
+.reloj{
+    grid-area: reloj;
+    justify-items: center;
+    height: 25px;
+    width: 25px;
+}
+.horario{
+    grid-area: horario;
+}
+.boton{
+    grid-area: boton;
+    border-radius: 15px;
+    border: 1px solid $titulo-color;
+    background-color: #d6cfcb;
+    color: $titulo-color;
+    cursor: pointer;
+    &:hover{ 
+        background-color: $titulo-color;
+        color: $secondary-color;
+        cursor: pointer;
+
+    }
+}
+
+.clasesCurso{
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    box-shadow: #d6cfcb;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    border: 5px solid $titulo-color;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+    transition: all 2s;
+    display: grid;
+    grid-column-gap: 2px;
+    grid-template-areas: 
+    "titulo titulo"
+    "calendario fechas"
+    "reloj horario"
+    "boton boton";
+    &:hover{
+        transform: translate(10px,5px)  
+    }
+}
+
+.cursos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
